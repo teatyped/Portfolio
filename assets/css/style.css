@@ -1,3 +1,57 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 section{
     padding-bottom: 20px;
+}
+
+body{
+    margin: 0 50px 0 50px;
+    background-color: rgba(242, 235, 229, 0.831);
+    padding: 50px;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.section-title h2{
+    font-size: 30px;
+    color: #010101;
+    border-bottom: 3px solid;
+    border-color: rgb(79, 79, 79);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 35px auto 35px auto;
+    width: 70%;
+}
+
+
+.hero{   
+    background-image: url(../imges/_A7T7938.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 80%;
+    align-items: flex-end;
+    padding: 100px;
+}
+
+
+.skill-icon{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+}
+.skill-icon ul li{
+    display: inline;
+    margin: 0 30px 0 30px;
+}
+.skill-icon ul li img{
+     flex: 1 13%; 
+     max-block-size: 8vw;
 }
