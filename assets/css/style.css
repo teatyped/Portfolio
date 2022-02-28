@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+header{
+
+}
+
+
 
 section{
     padding-bottom: 20px;
@@ -46,29 +51,38 @@ body{
 
 
 .About-me{
-    display: flex;
+ 
     margin: 20px;
     display: block;
 }
-.About-me-info{
-        display: inline;
+.about-con{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me-info {
+        flex:2 70%;
+       margin: 20px;
+        
 }
 .port-img{ 
   margin: 10px;
-  
+  flex: 1 30%;
+  margin: 30px;
 }
 
 .port-img img {
     height: 320px;
     width: 250px;
-    position: relative;
-    
-
 }
 
 
 .skill-icon{
-    display: flex;
+   display: block;
+}
+.skill-icon div {
+     display: flex;
     flex-wrap:nowrap;
     justify-content: space-evenly;
 }
