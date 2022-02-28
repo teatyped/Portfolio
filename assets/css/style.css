@@ -1,10 +1,12 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 
 section{
     padding-bottom: 20px;
+    display: block;
 }
 
 body{
@@ -15,6 +17,7 @@ body{
 
 .flex-row{
     display: flex;
+   
 }
 
 .section-title h2{
@@ -39,6 +42,28 @@ body{
     flex: 1 80%;
     align-items: flex-end;
     padding: 100px;
+}
+
+
+.About-me{
+    display: flex;
+    margin: 20px;
+    display: block;
+}
+.About-me-info{
+        display: inline;
+}
+.port-img{ 
+  margin: 10px;
+  
+}
+
+.port-img img {
+    height: 320px;
+    width: 250px;
+    position: relative;
+    
+
 }
 
 
