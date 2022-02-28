@@ -1,14 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Nunito:ital,wght@1,200&display=swap');
+
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     box-sizing: border-box;
 }
 
 header{
-
+    padding: 10px 35px;
+    background-color: rgb(238,237,232);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-items: center;
 }
+ header h1{
+     font-weight: bold;
+     font-size: 30px;
+     font-family: 'Lobster Two', cursive;
+ }
 
-
-
+ header a{
+     text-decoration: none;
+     color: black;
+ }
+ header nav ul{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+ }
+header nav ul a{
+    padding: 10px;
+    font-size: 1.5vw;
+}
 section{
     padding-bottom: 20px;
     display: block;
@@ -16,7 +44,7 @@ section{
 
 body{
     margin: 0 50px 0 50px;
-    background-color: rgba(242, 235, 229, 0.831);
+    background-color: rgb(238,237,232);
     padding: 50px;
 }
 
@@ -25,15 +53,16 @@ body{
    
 }
 
-.section-title h2{
+.section-title {
     font-size: 30px;
+    font-family: 'Lobster Two', cursive;
     color: #010101;
-    border-bottom: 3px solid;
+    /* border-bottom: 3px solid; */
     border-color: rgb(79, 79, 79);
     padding-bottom: 20px;
     text-align: center;
-    margin: 35px auto 35px auto;
-    width: 70%;
+    margin: 10px auto 10px auto;
+    width: 100%;
 }
 
 
@@ -50,10 +79,11 @@ body{
 }
 
 
-.About-me{
- 
+.about-me{
     margin: 20px;
-    display: block;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
 }
 .about-con{
     display: flex;
@@ -69,11 +99,11 @@ body{
 .port-img{ 
   margin: 10px;
   flex: 1 30%;
-  margin: 30px;
+  
 }
 
 .port-img img {
-    height: 320px;
+    height: 340px;
     width: 250px;
 }
 
