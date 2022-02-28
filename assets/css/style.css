@@ -7,7 +7,7 @@
 
 header{
     padding: 10px 35px;
-    background-color: rgb(238,237,232);
+    background-color: rgba(238,237,232,.5);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -36,6 +36,7 @@ header{
 header nav ul a{
     padding: 10px;
     font-size: 1.5vw;
+    font-family: 'Lobster Two', cursive;
 }
 section{
     padding-bottom: 20px;
