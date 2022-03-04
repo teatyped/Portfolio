@@ -38,6 +38,13 @@ header nav ul a{
     font-size: 1.5vw;
     font-family: 'Lobster Two', cursive;
 }
+
+header nav ul li a:hover{
+    background-color: #aa2d2d;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
 /* header nav end  */
 
 section{
@@ -142,14 +149,15 @@ body{
     justify-content: space-between;
     margin: 0 30px 0 30px;
 }
-/* .container div {
-    border: 2px rgba(132, 132, 128, .7) solid;
-    padding: 35px;
-    margin: 10px;
-    flex: 1 30vw;
-} */
+.container div:hover {
+    background-image: url("../imges/smokey\ red.jpg");
+    border-radius: 20px;
+    
+
+}
 .container div a {
     font-size: 25px;
+    font-family: 'Lobster Two', cursive;
     padding: 3px;
     margin: 0 5px 0 5px;
     color: rgb(219, 218, 214);
@@ -235,11 +243,20 @@ body{
     color: #d6d6d6;
     text-align: center;
     padding: 15px 0;
-    font-size: 16px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Lobster Two', cursive;
 
   }
 
   .contact-form button:hover {
     color: #fcfcfc;
     background: #aa2d2d;
+  }
+
+  footer{
+    font-family: 'Lobster Two', cursive;
+    font-size: 15px;
+    margin: 0;
+
   }
