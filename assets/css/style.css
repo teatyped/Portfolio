@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Nunito:ital,wght@1,200&display=swap');
 
 *{
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     box-sizing: border-box;
 }
 
+/* header/ nav style here  */
 header{
     padding: 10px 35px;
     background-color: rgba(238,237,232,.5);
@@ -38,6 +38,8 @@ header nav ul a{
     font-size: 1.5vw;
     font-family: 'Lobster Two', cursive;
 }
+/* header nav end  */
+
 section{
     padding-bottom: 20px;
     display: block;
@@ -64,7 +66,7 @@ body{
     width: 100%;
 }
 
-
+/* hero img here  */
 .hero{   
     background-image: url(../imges/_A7T7938.jpg);
     background-size: cover;
@@ -83,6 +85,8 @@ body{
     align-items: flex-end;
     padding: 5px 20px 5px 20px;
 }
+
+/* about me section  */
 .about-me{
     margin: 20px;
    display: flex;
@@ -163,3 +167,60 @@ body{
     justify-content: center;
    
 }
+
+
+/* contact me here  */
+
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-form {
+    display: flex;
+    width: 60%;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #a0a0a0;
+    display: inline-flexbox;
+    padding: 7px 15px;
+    font-size: 16px;
+    background-color: rgba(209, 207, 207, 0.75);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+} 
+
+.contact-info p, .contact-info address{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+
+  }
+
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    border: none;
+}
+
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #8a8a8a;
+    color: #d6d6d6;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+
+  }
+
+  .contact-form button:hover {
+    color: #fcfcfc;
+    background: #aa2d2d;
+  }
