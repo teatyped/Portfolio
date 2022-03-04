@@ -89,7 +89,7 @@ body{
 /* about me section  */
 .about-me{
     margin: 20px;
-   display: flex;
+    display: flex;
    flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -142,20 +142,20 @@ body{
     justify-content: space-between;
     margin: 0 30px 0 30px;
 }
-.container div {
+/* .container div {
     border: 2px rgba(132, 132, 128, .7) solid;
     padding: 35px;
     margin: 10px;
     flex: 1 30vw;
-}
+} */
 .container div a {
-    font-size: 20px;
+    font-size: 25px;
     padding: 3px;
     margin: 0 5px 0 5px;
     color: rgb(219, 218, 214);
     text-decoration: none;
-    text-shadow: #010101;
-   text-align: center;
+    text-shadow: 1px 1px 1px #010101;
+    text-align: center;
 }
 
 .box1 {
@@ -166,8 +166,27 @@ body{
     display: flex;
     justify-content: center;
    
+
+    border: 2px rgba(132, 132, 128, .7) solid;
+    padding: 35px;
+    margin: 10px;
+    flex: 1 30vw;
 }
 
+.box-big {
+    background-image: url("../imges/smokey.jpg");
+    background-size: 100%;
+    background-attachment:local;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    
+    border: 2px rgba(132, 132, 128, .7) solid;
+    padding: 80px;
+    margin: 10px;
+    flex: 3 100vw;
+   
+}
 
 /* contact me here  */
 
