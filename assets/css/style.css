@@ -207,6 +207,7 @@ body{
 .contact-form {
     display: flex;
     width: 60%;
+    justify-content: center;
 }
 
 .contact-form input, .contact-form textarea {
