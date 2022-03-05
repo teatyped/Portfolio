@@ -260,3 +260,83 @@ body{
     margin: 0;
 
   }
+
+
+
+  @media screen and (max-width: 980px){
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+       width: 100%;
+       text-align: center;
+    }
+
+    header nav ul{
+        margin-top:20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    footer h4{
+        text-align: center;
+        width: 100%;
+    }
+
+   
+
+  } 
+  
+  @media screen and (max-width: 780px) {
+        
+    .port-img {
+        align-items: center;
+        margin-left: 100px;
+        padding: 0 50px 0 50px; 
+     
+    }
+   
+
+    .about-con{
+        display: block;
+        justify-content: center;
+    }
+   
+    .about-me-info{
+       width: 80%;
+       margin-left: 70px;
+       text-align: center;
+       padding: 0 50px 0 50px;
+    }
+    
+    .container{
+        margin: 0;
+        justify-content: center;
+    }
+
+    
+
+    }
+
+    @media screen and (max-width: 575px) {
+
+        .about-con{
+            margin: 0;
+        }
+        .port-img{
+            margin:0;
+        }
+
+        .about-me-info{
+            margin: 0;
+            width: 100%;
+        }
+
+    }
